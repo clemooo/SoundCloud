@@ -164,21 +164,40 @@ img {
     margin-right: auto;
 }
 
-.image10 span {
+.titregodsplan span {
   display: block;
   position: absolute;;   /* positionnement hors flux */
   left: -100%;          /* décalage à gauche toute */
   padding: 0 .40em;     /* un peu d'espace latéral */
-  color: #F0F8FF;          /* couleur du texte à ajuster suivant le besoin */
+  color: #2E2E2E;          /* couleur du texte à ajuster suivant le besoin */
   transition: all .3s;  /* la transition à appliquer */
     margin-top: -14%;
-    margin-left: 350px;
-    font-size: 80px;
+    margin-left: 80px;
+    font-size: 50px;
     font-family: 'Permanent Marker', cursive;
 }
 
-.image10:hover span {
+
+.titregodsplan:hover span {
     left: 5em; /* position égale à la largeur de l'image */
+}
+
+.titreremedy span {
+  display: block;
+  position: absolute;;   /* positionnement hors flux */
+  right: -100%;          /* décalage à gauche toute */
+  padding: 0 .40em;     /* un peu d'espace latéral */
+  color: #2E2E2E;          /* couleur du texte à ajuster suivant le besoin */
+  transition: all .3s;  /* la transition à appliquer */
+    margin-top: -14%;
+    margin-left: 350px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.titreremedy:hover span {
+    right: 5em; /* position égale à la largeur de l'image */
 }
 
 .del-countdown {
